@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aakkash D M – Full Stack Developer</title>
+  <link rel="stylesheet" href="styless.css"/>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <nav>
+      <h1>Aakkash</h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+      <button class="btn">Let's Talk</button>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <h2>Aakkash</h2>
+      <p>Full Stack Developer specialized in building scalable web applications using Java, Spring Boot, React, and MySQL.</p>
+      <a href="#projects" class="btn">Projects</a>
+    </div>
+    <div class="hero-img">
+      <img src="https://via.placeholder.com/300x300" alt="Developer Illustration"/>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="section">
+    <h2>Services</h2>
+    <div class="card-grid">
+      <div class="card">
+        <span>💻</span>
+        <h3>Frontend Development</h3>
+        <p>Responsive, clean UI built with HTML, CSS, JS, and React.</p>
+      </div>
+      <div class="card">
+        <span>🔧</span>
+        <h3>Backend APIs</h3>
+        <p>Spring Boot and Node.js REST APIs with secure endpoints.</p>
+      </div>
+      <div class="card">
+        <span>🗄️</span>
+        <h3>Database Integration</h3>
+        <p>Efficient schema design and queries with MySQL and MongoDB.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section light">
+    <h2>Projects</h2>
+    <div class="card-grid">
+      <div class="card">
+        <img src="https://marketplace.canva.com/EAGGcdxk5PE/2/0/1600w/canva-black-and-white-automotive-logo-buRe3xonLU0.jpg" alt="Project 1" style="width:125px;height:125px;">
+        <h3>Vehicle Management System</h3>
+        <p>Track services, history, and inspection reports – built with Spring Boot & React.</p>
+        <button>Know More</button>
+      </div>
+      <div class="card">
+        <img src="data:image/png;base64,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" style="width:150px;height:150px;" alt="Project 2"/>
+        <h3>Task Tracker</h3>
+        <p>Full-stack productivity app using MERN stack with authentication and reminders.</p>
+        <button>Know More</button>
+      </div>
+      <div class="card">
+        <img src="data:image/png;base64,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" style="width:150px;height:150px;" alt="Project 3"/>
+        <h3>Portfolio API</h3>
+        <p>Backend-only Spring Boot API to serve resume, projects, and contact forms.</p>
+        <button>Know More</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="section">
+    <h2>Testimonials</h2>
+    <blockquote>
+      “Aakkash is an exceptional full stack developer. He delivered a robust backend and beautiful frontend on time.”
+      <footer>— Client, XYZ Corp</footer>
+    </blockquote>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section light">
+    <h2>About Me</h2>
+    <p>I’m a Full Stack Developer who loves solving complex problems with clean and efficient code. From crafting APIs to styling UIs, I aim to deliver end-to-end web solutions that are user-focused and scalable.</p>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <p>📧 aakkash23404@email.com &nbsp;&nbsp; 📞 +91-6369819311</p>
+    <div class="socials">
+      <a href="#">GitHub</a> |
+      <a href="#">LinkedIn</a> |
+      <a href="#">Twitter</a>
+    </div>
+    <p class="footer">© 2025 Aakkash. All rights reserved.</p>
+  </section>
+
+</body>
+</html>
